@@ -42,7 +42,7 @@ NOTE : if the free latex fonts furnished with this script don't work well (very 
 $dirfonts=realpath(dirname(__FILE__))."/fonts"; 
 
 // absolute path to the images directory
-$dirimg=realpath(dirname(__FILE__))."/img";
+$dirimg=realpath(dirname($_SERVER["SCRIPT_FILENAME"]))."/img";
 
  
 
